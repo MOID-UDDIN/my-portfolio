@@ -9,7 +9,7 @@ export default function Home() {
         <header className="flex flex-col md:flex-row items-center md:items-start gap-8 mb-16">
           <div className="shrink-0">
             <Image
-              src="/profile.jpg"
+              src="/profile.png"
               alt="Moid Uddin"
               width={160}
               height={160}
@@ -36,16 +36,6 @@ export default function Home() {
             </div>
           </div>
         </header>
-
-        {/* About Section */}
-        <section className="mb-12">
-          <h2 className="text-2xl font-bold mb-4 border-b-2 border-gray-200 pb-2">About Me</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-gray-700">
-            <p><strong>Date of Birth:</strong>30-August-1999</p>
-            <p><strong>Gender:</strong> Male</p>
-          </div>
-        </section>
-
         {/* Skills Section */}
         <section className="mb-12">
           <h2 className="text-2xl font-bold mb-6 border-b-2 border-gray-200 pb-2">Skills</h2>
